@@ -1,9 +1,9 @@
 vcpkg_from_github(
   OUT_SOURCE_PATH SOURCE_PATH
-  REPO Microsoft/vcpkg-docs
-  REF b0456132ea9a6e23cf36710eabae478e54e71ec0
-  SHA512 5e11038aeebd657ebdaf4d442faa303bc5fef45a3bbdb56fd5e3e872ba26c49917c45b2dc120ecbcec1b7e22e6a571b0f7aa5b1eab2273eb9274846329f09a34
-  HEAD_REF lib-beicode
+  REPO mtorralba24-chev/Test_Library_CPP
+  REF c3947a65f94890ff3a50750c2958fe5243341897
+  SHA512 59639bea87d72ad08235df9dea1a54e222e3b0b7c13c8a96c097b480bf729d1f09c1de3590ae8bcd3f35dde1b90130a60f89df3eb25f43cd77a6b2a0e449f921
+  HEAD_REF main
 )
 
 vcpkg_cmake_configure(SOURCE_PATH "${SOURCE_PATH}")
