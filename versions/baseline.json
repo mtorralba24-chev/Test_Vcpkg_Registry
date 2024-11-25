@@ -1,6 +1,6 @@
 {
 	"default": {
-		"Test_Library_CPP": {
+		"test-library-cpp": {
 			"baseline": "1.0.0",
 			"port-version": 0
 		}
